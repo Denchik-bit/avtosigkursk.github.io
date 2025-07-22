@@ -1,0 +1,54 @@
+<!-- Контактная форма с вашими данными -->
+<div style="flex: 1; min-width: 300px; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border: 1px solid #eee;">
+    <!-- Ваши контактные данные -->
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h3 style="color: #FF6B00; margin-bottom: 15px; font-size: 1.3rem;">Ваш мастер</h3>
+        
+        <div style="display: inline-flex; align-items: center; background: #FFF8F3; padding: 12px 20px; border-radius: 50px; margin-bottom: 15px;">
+            <i class="fas fa-user-tie" style="color: #FF6B00; font-size: 1.2rem; margin-right: 10px;"></i>
+            <div style="text-align: left;">
+                <p style="font-weight: bold; margin: 0; font-size: 1.1rem;">Денис Сергеевич</p>
+                <p style="margin: 0; color: #666; font-size: 0.9rem;">Специалист с 8-летним опытом</p>
+            </div>
+        </div>
+        
+        <div style="background: #F5F5F5; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+            <a href="tel:+79207370969" style="display: block; color: #222; text-decoration: none; font-weight: bold; font-size: 1.2rem; margin-bottom: 5px;">
+                <i class="fas fa-phone-alt" style="color: #FF6B00;"></i> +7 (920) 737-09-69
+            </a>
+            <p style="margin: 0; color: #666; font-size: 0.9rem;">
+                <i class="far fa-clock" style="color: #FF6B00;"></i> Работаем без выходных 9:00-21:00
+            </p>
+        </div>
+    </div>
+
+    <!-- Форма заявки -->
+    <form id="tg-form">
+        <h4 style="margin-bottom: 15px; text-align: center; color: #444;">Быстрая заявка</h4>
+        
+        <input type="text" placeholder="Как вас зовут?" required 
+               style="width: 100%; padding: 12px; margin-bottom: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem;">
+        
+        <input type="tel" placeholder="Ваш телефон" required 
+               style="width: 100%; padding: 12px; margin-bottom: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem;">
+        
+        <select style="width: 100%; padding: 12px; margin-bottom: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; color: #555;">
+            <option value="">Выберите услугу</option>
+            <option>Установка сигнализации</option>
+            <option>Автозапуск двигателя</option>
+            <option>Ремонт сигнализации</option>
+            <option>Консультация</option>
+        </select>
+        
+        <button type="submit" 
+                style="width: 100%; background: #FF6B00; color: white; border: none; padding: 14px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.3s;">
+            <i class="fas fa-paper-plane"></i> Отправить заявку
+        </button>
+    </form>
+
+    <!-- Гарантии -->
+    <div style="margin-top: 20px; text-align: center; font-size: 0.8rem; color: #777; line-height: 1.5;">
+        <p><i class="fas fa-shield-alt" style="color: #FF6B00;"></i> Гарантия на работы - 2 года</p>
+        <p><i class="fas fa-certificate" style="color: #FF6B00;"></i> Официальный дилер StarLine/Pandora</p>
+    </div>
+</div>
